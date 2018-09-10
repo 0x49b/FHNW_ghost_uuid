@@ -2,7 +2,7 @@
   "hosting": {
     "public": "public",
     "rewrites":[{
-      "source": "/ghost",
+      "source": "**",
       "function": "ghost"
     }],
     "ignore": [
