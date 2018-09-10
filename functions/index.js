@@ -1,4 +1,4 @@
 const functions = require('firebase-functions');
-const ghost = require('ghost/index.js');
+const cms = require('./cms/index.js');
 
-exports.ghost = functions.https.onRequest(ghost);
+exports.ghost = functions.https.onRequest(cms);
