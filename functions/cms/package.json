@@ -55,7 +55,7 @@
     "extract-zip": "1.7.0",
     "fs-extra": "11.1.1",
     "ghost-gql": "0.0.11",
-    "ghost-ignition": "2.9.6",
+    "ghost-ignition": "4.6.3",
     "ghost-storage-base": "0.0.3",
     "glob": "5.0.15",
     "got": "7.1.0",
