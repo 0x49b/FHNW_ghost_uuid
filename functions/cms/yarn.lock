@@ -623,9 +623,10 @@ brute-knex@3.0.1:
     express-brute "^1.0.0"
     knex "0.14.6"
 
-bson-objectid@1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/bson-objectid/-/bson-objectid-1.2.3.tgz#af6bc55b0b3f63a9512352f424a2d84c3f17bd5c"
+bson-objectid@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/bson-objectid/-/bson-objectid-2.0.4.tgz#339211572ef97dc98f2d68eaee7b99b7be59a089"
+  integrity sha512-vgnKAUzcDoa+AeyYwXCoHyF2q6u/8H46dxu5JN+4/TZeq/Dlinn0K6GvxsCLb3LHUJl0m/TLiEK31kUwtgocMQ==
 
 buffer-alloc-unsafe@^1.1.0:
   version "1.1.0"
