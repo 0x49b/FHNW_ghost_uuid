@@ -47,7 +47,7 @@
         "gulp-livereload": "3.8.1",
         "gulp-postcss": "6.1.1",
         "gulp-sourcemaps": "1.6.0",
-        "gulp-util": "3.0.7",
+        "gulp-util": "3.0.8",
         "gulp-watch": "4.3.11",
         "gulp-zip": "4.0.0",
         "postcss-color-function": "2.0.1",
