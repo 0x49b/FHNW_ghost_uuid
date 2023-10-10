@@ -41,7 +41,7 @@
     "contributors": "https://github.com/TryGhost/Casper/graphs/contributors",
     "devDependencies": {
         "autoprefixer": "6.3.6",
-        "cssnano": "3.7.1",
+        "cssnano": "3.10.0",
         "gscan": "^2.0.0",
         "gulp": "3.9.1",
         "gulp-livereload": "3.8.1",
