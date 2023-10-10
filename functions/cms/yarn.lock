@@ -602,12 +602,6 @@ browser-stdout@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/browser-stdout/-/browser-stdout-1.3.0.tgz#f351d32969d32fa5d7a5567154263d928ae3bd1f"
 
-browserify-zlib@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/browserify-zlib/-/browserify-zlib-0.1.4.tgz#bb35f8a519f600e0fa6b8485241c979d0141fb2d"
-  dependencies:
-    pako "~0.2.0"
-
 browserslist@^1.3.6, browserslist@^1.5.2, browserslist@^1.7.6:
   version "1.7.7"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-1.7.7.tgz#0bd76704258be829b2398bb50e4b62d1a166b0b9"
@@ -990,7 +984,7 @@ commander@2.11.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
 
-commander@2.15.1, commander@^2.15.1, commander@^2.9.0, commander@~2.15.0:
+commander@2.15.1, commander@^2.15.1, commander@^2.9.0:
   version "2.15.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.15.1.tgz#df46e867d0fc2aec66a34662b406a9ccafff5b0f"
 
@@ -999,6 +993,11 @@ commander@2.9.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
   dependencies:
     graceful-readlink ">= 1.0.0"
+
+commander@~2.19.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
+  integrity sha512-6tvAOO+D6OENvRAh524Dh9jcfKTYDQAqvqezbCW82xj5X0pSrcpxtvRKHLG0yBY6SD7PSDrJaj+0AiOcKVd1Xg==
 
 compare-ver@^2.0.2:
   version "2.0.2"
@@ -1053,7 +1052,7 @@ concat-stream@1.6.0:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-concat-stream@1.6.2, concat-stream@^1.4.1, concat-stream@^1.5.0, concat-stream@^1.5.2, concat-stream@^1.6.0:
+concat-stream@1.6.2, concat-stream@^1.5.0, concat-stream@^1.5.2, concat-stream@^1.6.0:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/concat-stream/-/concat-stream-1.6.2.tgz#904bdf194cd3122fc675c77fc4ac3d4ff0fd1a34"
   dependencies:
@@ -1470,6 +1469,11 @@ dtrace-provider@~0.8:
 duplexer3@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
+
+duplexer@^0.1.1:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.2.tgz#3abe43aef3835f8ae077d136ddce0f276b0400e6"
+  integrity sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==
 
 eachr@~2.0.2:
   version "2.0.4"
@@ -2362,13 +2366,14 @@ grunt-contrib-symlink@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/grunt-contrib-symlink/-/grunt-contrib-symlink-1.0.0.tgz#c83616c035711a6c0062a2810cf1c77ffc6bed2b"
 
-grunt-contrib-uglify@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/grunt-contrib-uglify/-/grunt-contrib-uglify-3.3.0.tgz#dcc29bee1dd4768698930e46fb8bff8e8d37fb08"
+grunt-contrib-uglify@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/grunt-contrib-uglify/-/grunt-contrib-uglify-3.4.0.tgz#8a51ab330be05ef62b11b2833abd3e955e85af03"
+  integrity sha512-UXsTpeP0pytpTYlmll3RDndsRXfdwmrf1tI/AtD/PrArQAzGmKMvj83aVt3D8egWlE6KqPjsJBLCCvfC52LI/A==
   dependencies:
     chalk "^1.0.0"
-    maxmin "^1.1.0"
-    uglify-js "~3.3.0"
+    maxmin "^2.1.0"
+    uglify-js "~3.4.0"
     uri-path "^1.0.0"
 
 grunt-contrib-watch@1.1.0:
@@ -2561,12 +2566,12 @@ gscan@2.2.1:
     uuid "^3.0.0"
     validator "^6.3.0"
 
-gzip-size@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-1.0.0.tgz#66cf8b101047227b95bace6ea1da0c177ed5c22f"
+gzip-size@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-3.0.0.tgz#546188e9bdc337f673772f81660464b389dce520"
+  integrity sha512-6s8trQiK+OMzSaCSVXX+iqIcLV9tC+E73jrJrJTyS4h/AJhlxHvzFKqM1YLDJWRGgHX8uLkBeXkA0njNj39L4w==
   dependencies:
-    browserify-zlib "^0.1.4"
-    concat-stream "^1.4.1"
+    duplexer "^0.1.1"
 
 handlebars@4.0.6:
   version "4.0.6"
@@ -3680,14 +3685,15 @@ math-expression-evaluator@^1.2.14:
   version "1.2.17"
   resolved "https://registry.yarnpkg.com/math-expression-evaluator/-/math-expression-evaluator-1.2.17.tgz#de819fdbcd84dccd8fae59c6aeb79615b9d266ac"
 
-maxmin@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/maxmin/-/maxmin-1.1.0.tgz#71365e84a99dd8f8b3f7d5fde2f00d1e7f73be61"
+maxmin@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/maxmin/-/maxmin-2.1.0.tgz#4d3b220903d95eee7eb7ac7fa864e72dc09a3166"
+  integrity sha512-NWlApBjW9az9qRPaeg7CX4sQBWwytqz32bIEo1PW9pRW+kBP9KLRfJO3UC+TV31EcQZEUq7eMzikC7zt3zPJcw==
   dependencies:
     chalk "^1.0.0"
     figures "^1.0.1"
-    gzip-size "^1.0.0"
-    pretty-bytes "^1.0.0"
+    gzip-size "^3.0.0"
+    pretty-bytes "^3.0.0"
 
 mdurl@^1.0.1:
   version "1.0.1"
@@ -3697,7 +3703,7 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
 
-meow@^3.1.0, meow@^3.3.0:
+meow@^3.3.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/meow/-/meow-3.7.0.tgz#72cb668b425228290abbfa856892587308a801fb"
   dependencies:
@@ -4372,10 +4378,6 @@ p-timeout@^1.1.1:
   dependencies:
     p-finally "^1.0.0"
 
-pako@~0.2.0:
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/pako/-/pako-0.2.9.tgz#f3f7522f4ef782348da8161bad9ecfd51bf83a75"
-
 parse-filepath@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/parse-filepath/-/parse-filepath-1.0.2.tgz#a632127f53aaf3d15876f5872f3ffac763d6c891"
@@ -4808,12 +4810,12 @@ prepend-http@^1.0.0, prepend-http@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
 
-pretty-bytes@^1.0.0:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-1.0.4.tgz#0a22e8210609ad35542f8c8d5d2159aff0751c84"
+pretty-bytes@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-3.0.1.tgz#27d0008d778063a0b4811bb35c79f1bd5d5fbccf"
+  integrity sha512-eb7ZAeUTgfh294cElcu51w+OTRp/6ItW758LjwJSK72LDevcuJn0P4eD71PLMDGPwwatXmAmYHTkzvpKlJE3ow==
   dependencies:
-    get-stdin "^4.0.1"
-    meow "^3.1.0"
+    number-is-nan "^1.0.0"
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
@@ -6030,11 +6032,12 @@ uglify-js@^2.6:
   optionalDependencies:
     uglify-to-browserify "~1.0.0"
 
-uglify-js@~3.3.0:
-  version "3.3.28"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.3.28.tgz#0efb9a13850e11303361c1051f64d2ec68d9be06"
+uglify-js@~3.4.0:
+  version "3.4.10"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.4.10.tgz#9ad9563d8eb3acdfb8d38597d2af1d815f6a755f"
+  integrity sha512-Y2VsbPVs0FIshJztycsO2SfPk7/KAF/T72qzv9u5EpQ4kB2hQoHlhNQTsNyy6ul7lQtqJN/AoWeS23OzEiEFxw==
   dependencies:
-    commander "~2.15.0"
+    commander "~2.19.0"
     source-map "~0.6.1"
 
 uglify-to-browserify@~1.0.0:
