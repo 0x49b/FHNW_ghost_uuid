@@ -130,7 +130,7 @@
     "rewire": "3.0.2",
     "should": "13.2.3",
     "should-http": "0.1.1",
-    "sinon": "4.5.0",
+    "sinon": "16.1.0",
     "supertest": "3.4.2",
     "tmp": "0.2.1"
   },
