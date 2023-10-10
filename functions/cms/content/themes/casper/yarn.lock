@@ -2,6 +2,21 @@
 # yarn lockfile v1
 
 
+"@csstools/cascade-layer-name-parser@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@csstools/cascade-layer-name-parser/-/cascade-layer-name-parser-1.0.5.tgz#c4d276e32787651df0007af22c9fa70d9c9ca3c2"
+  integrity sha512-v/5ODKNBMfBl0us/WQjlfsvSlYxfZLhNMVIsuCPib2ulTwGKYbKJbwqw671+qH9Y4wvWVnu7LBChvml/wBKjFg==
+
+"@csstools/css-parser-algorithms@^2.3.2":
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@csstools/css-parser-algorithms/-/css-parser-algorithms-2.3.2.tgz#1e0d581dbf4518cb3e939c3b863cb7180c8cedad"
+  integrity sha512-sLYGdAdEY2x7TSw9FtmdaTrh2wFtRJO5VMbBrA8tEqEod7GEggFmxTSK9XqExib3yMuYNcvcTdCZIP6ukdjAIA==
+
+"@csstools/css-tokenizer@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@csstools/css-tokenizer/-/css-tokenizer-2.2.1.tgz#9dc431c9a5f61087af626e41ac2a79cce7bb253d"
+  integrity sha512-Zmsf2f/CaEPWEVgw29odOj+WEVoiJy9s9NOv5GgNY9mZ1CZ7394By6wONrONrTsnNDv6F9hR02nvFihrGVGHBg==
+
 "@tryghost/extract-zip@1.6.6":
   version "1.6.6"
   resolved "https://registry.yarnpkg.com/@tryghost/extract-zip/-/extract-zip-1.6.6.tgz#937e0e775fec6dea937ac49d73a068bcafb67f50"
@@ -3433,13 +3448,15 @@ postcss-convert-values@^2.3.4:
     postcss "^5.0.11"
     postcss-value-parser "^3.1.2"
 
-postcss-custom-properties@5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-custom-properties/-/postcss-custom-properties-5.0.2.tgz#9719d78f2da9cf9f53810aebc23d4656130aceb1"
-  integrity sha512-9nuxFdFgbzd7EVBzvMTJHdd1+4XKBtm8sj1EnjqnaoO/my9h3KWxBHlk5Uxeka35vR35f+byMqAP2zePdJ8NEg==
+postcss-custom-properties@13.3.2:
+  version "13.3.2"
+  resolved "https://registry.yarnpkg.com/postcss-custom-properties/-/postcss-custom-properties-13.3.2.tgz#88952f883003d897ade5c836e1e005b09a12f02b"
+  integrity sha512-2Coszybpo8lpLY24vy2CYv9AasiZ39/bs8Imv0pWMq55Gl8NWzfc24OAo3zIX7rc6uUJAqESnVOMZ6V6lpMjJA==
   dependencies:
-    balanced-match "^0.4.2"
-    postcss "^5.0.0"
+    "@csstools/cascade-layer-name-parser" "^1.0.5"
+    "@csstools/css-parser-algorithms" "^2.3.2"
+    "@csstools/css-tokenizer" "^2.2.1"
+    postcss-value-parser "^4.2.0"
 
 postcss-discard-comments@^2.0.4:
   version "2.0.4"
@@ -3675,7 +3692,7 @@ postcss-zindex@^2.0.1:
     postcss "^5.0.4"
     uniqs "^2.0.0"
 
-postcss@^5.0.0, postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.8, postcss@^5.2.12, postcss@^5.2.16:
+postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.2, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.8, postcss@^5.2.12, postcss@^5.2.16:
   version "5.2.18"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.18.tgz#badfa1497d46244f6390f58b319830d9107853c5"
   dependencies:
