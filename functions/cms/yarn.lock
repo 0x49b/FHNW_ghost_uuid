@@ -4228,9 +4228,10 @@ oauth-sign@~0.8.2:
   version "0.8.2"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.8.2.tgz#46a6ab7f0aead8deae9ec0565780b7d4efeb9d43"
 
-oauth2orize@1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/oauth2orize/-/oauth2orize-1.11.0.tgz#793cef251d45ebdeac32ae40a8b6814faab1d483"
+oauth2orize@1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/oauth2orize/-/oauth2orize-1.11.1.tgz#00b6cafe2036a0a3aab0380627dc7cfd5b5e9a9c"
+  integrity sha512-9dSx/Gwm0J2Rvj4RH9+h7iXVnRXZ6biwWRgb2dCeQhCosODS0nYdM9I/G7BUGsjbgn0pHjGcn1zcCRtzj2SlRA==
   dependencies:
     debug "2.x.x"
     uid2 "0.0.x"
