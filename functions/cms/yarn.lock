@@ -2,23 +2,35 @@
 # yarn lockfile v1
 
 
-"@nexes/mongo-knex@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@nexes/mongo-knex/-/mongo-knex-0.0.1.tgz#141c8ca380e95c1460fe2abcd777d7fd2bb14e8f"
+"@nexes/mongo-knex@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@nexes/mongo-knex/-/mongo-knex-0.5.0.tgz#58566614ca240bdf84a270117d72b46511b17743"
+  integrity sha512-6wiTbJpy7I2xsxuvwavuwDEtJfoiaxAy4PGPFEiVziQyH3SjOFbwyqnlrKPvhNHCj2YFQHcE8rnJ3JawJVtXOA==
   dependencies:
-    lodash "^4.17.10"
+    debug "^4.3.1"
+    lodash "^4.17.21"
 
-"@nexes/nql-lang@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@nexes/nql-lang/-/nql-lang-0.0.1.tgz#a13c023873f9bc11b9e4e284449c6cfbeccc8011"
+"@nexes/mongo-utils@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@nexes/mongo-utils/-/mongo-utils-0.3.1.tgz#3a1b89ec4585478dbb41277dc1fdb2689deb3b9d"
+  integrity sha512-SpDr6i98GeGA2vajQtliAsUqvFbawmzC6wgaC9/+9P8R0/o+71WTzvyPNYHnXNDqy0dpxq2FX78DdN6FTSKjKA==
+  dependencies:
+    lodash "^4.17.11"
 
-"@nexes/nql@0.1.0":
+"@nexes/nql-lang@0.1.0":
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@nexes/nql/-/nql-0.1.0.tgz#b63614d5874bebb387b58d3f1b9fb9602115cf62"
+  resolved "https://registry.yarnpkg.com/@nexes/nql-lang/-/nql-lang-0.1.0.tgz#801a616711461a9c1ee765f8338202742036b056"
+  integrity sha512-p16GyCzvfpW7DoblHdjssACSpavU0phKZKgyhbDCuD1GYru5xbJGfI7AGBaf1grAa31gpChnPKUx2xqnSesQaw==
+
+"@nexes/nql@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@nexes/nql/-/nql-0.7.0.tgz#87660dc2b338fdeb0a8514df158004457ae5ef55"
+  integrity sha512-eAevZfmrowJufuxV35N9Sj9xdqetsEL01RODCMBV/5ksiamw+JQWLE+kyJsfdo+OYVej5kBlhv6sYtJx5D+GIA==
   dependencies:
-    "@nexes/mongo-knex" "0.0.1"
-    "@nexes/nql-lang" "0.0.1"
-    mingo "2.2.2"
+    "@nexes/mongo-knex" "0.5.0"
+    "@nexes/mongo-utils" "^0.3.1"
+    "@nexes/nql-lang" "0.1.0"
+    mingo "^2.2.2"
 
 "@segment/loosely-validate-event@^1.1.2":
   version "1.1.2"
@@ -1280,6 +1292,13 @@ debug@3.1.0, debug@^3.1.0:
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
     ms "2.0.0"
+
+debug@^4.3.1:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
+  dependencies:
+    ms "2.1.2"
 
 decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
@@ -3565,7 +3584,7 @@ lodash@4.17.10, lodash@^4.13.1, lodash@^4.16.4, lodash@^4.17.10, lodash@^4.17.4,
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
-lodash@4.17.21:
+lodash@4.17.21, lodash@^4.17.11, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -3779,9 +3798,10 @@ mimic-response@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.0.tgz#df3d3652a73fded6b9b0b24146e6fd052353458e"
 
-mingo@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/mingo/-/mingo-2.2.2.tgz#be69d486ae6e0ac54b979dc5f4412db21851f693"
+mingo@^2.2.2:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/mingo/-/mingo-2.5.3.tgz#bed3db76ca9b2cc29ae1f1ff83e3a8797dc47758"
+  integrity sha512-Wb98QEQ/DaT+xPQFAX08mzM/Zz2eW1UIpKH132gXglakl2SKYBCQFzeiFygS/Hgzc9j9MDDjgouB9W7BMaLyaQ==
 
 minimatch@0.3:
   version "0.3.0"
@@ -3909,6 +3929,11 @@ moment@2.22.2, "moment@>= 2.9.0", moment@^2.10.6, moment@^2.15.2, moment@^2.18.1
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
+
+ms@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 multer@1.3.1:
   version "1.3.1"
