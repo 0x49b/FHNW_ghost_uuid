@@ -45,7 +45,7 @@
         "gscan": "^2.0.0",
         "gulp": "3.9.1",
         "gulp-livereload": "3.8.1",
-        "gulp-postcss": "6.1.1",
+        "gulp-postcss": "6.4.0",
         "gulp-sourcemaps": "1.6.0",
         "gulp-util": "3.0.8",
         "gulp-watch": "4.3.11",
