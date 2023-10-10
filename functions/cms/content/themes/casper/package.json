@@ -43,7 +43,7 @@
         "autoprefixer": "10.4.16",
         "cssnano": "3.7.1",
         "gscan": "^2.0.0",
-        "gulp": "3.9.1",
+        "gulp": "4.0.2",
         "gulp-livereload": "3.8.1",
         "gulp-postcss": "6.4.0",
         "gulp-sourcemaps": "1.6.0",
