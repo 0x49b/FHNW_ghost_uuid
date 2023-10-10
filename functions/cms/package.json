@@ -72,7 +72,7 @@
     "markdown-it": "8.4.2",
     "markdown-it-footnote": "3.0.3",
     "markdown-it-lazy-headers": "0.1.3",
-    "markdown-it-mark": "2.0.0",
+    "markdown-it-mark": "3.0.1",
     "mobiledoc-dom-renderer": "0.7.2",
     "moment": "2.29.4",
     "moment-timezone": "0.5.43",
