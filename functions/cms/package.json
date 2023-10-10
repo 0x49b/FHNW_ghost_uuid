@@ -126,7 +126,7 @@
     "matchdep": "2.0.0",
     "minimist": "1.2.8",
     "mocha": "4.1.0",
-    "nock": "9.6.1",
+    "nock": "13.3.3",
     "rewire": "3.0.2",
     "should": "13.2.3",
     "should-http": "0.1.1",
