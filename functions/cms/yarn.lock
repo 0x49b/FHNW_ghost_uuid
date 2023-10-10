@@ -4105,9 +4105,10 @@ mkdirp@~0.3.5:
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.3.5.tgz#de3e5f8961c88c787ee1368df849ac4413eca8d7"
 
-mobiledoc-dom-renderer@0.6.5:
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/mobiledoc-dom-renderer/-/mobiledoc-dom-renderer-0.6.5.tgz#56c0302c4f9c30840ab5b9b20dfe905aed1e437b"
+mobiledoc-dom-renderer@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/mobiledoc-dom-renderer/-/mobiledoc-dom-renderer-0.7.2.tgz#2640bd261079faf1b8bd2264f5a610760840ce8a"
+  integrity sha512-0vw/ybxCWXI0sIcBk9GVq3PMfVWJ4qpLWBal8ZoZVP/S5MMRjxFwyOctOfUmsY2dVi6BSvomp8yFqNloawwyig==
 
 mocha@4.1.0:
   version "4.1.0"
