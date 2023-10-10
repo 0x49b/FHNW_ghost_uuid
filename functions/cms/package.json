@@ -111,7 +111,7 @@
     "grunt-contrib-compress": "1.4.3",
     "grunt-contrib-copy": "1.0.0",
     "grunt-contrib-symlink": "^1.0.0",
-    "grunt-contrib-uglify": "3.4.0",
+    "grunt-contrib-uglify": "5.2.2",
     "grunt-contrib-watch": "1.1.0",
     "grunt-cssnano": "2.1.0",
     "grunt-docker": "0.0.11",
