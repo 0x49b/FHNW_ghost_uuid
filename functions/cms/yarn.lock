@@ -2393,9 +2393,10 @@ grunt-docker@0.0.11:
     docker "~0.2.10"
     grunt "~0.4.0"
 
-grunt-eslint@20.1.0:
-  version "20.1.0"
-  resolved "https://registry.yarnpkg.com/grunt-eslint/-/grunt-eslint-20.1.0.tgz#2e5d273546cf36d80d313c1db91d73b805940816"
+grunt-eslint@20.2.0:
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/grunt-eslint/-/grunt-eslint-20.2.0.tgz#beeda46fa9b84e00863742aa4bcc84846cd27bca"
+  integrity sha512-XPrN3lyFwiTdQWpblZqvKvKtk74aZNs/6tUdKZqSCl/YNq+iaoE477w7I/082OwTSjyXi4ylE1P5fhHWuzxu1w==
   dependencies:
     chalk "^2.1.0"
     eslint "^4.0.0"
