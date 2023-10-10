@@ -89,7 +89,7 @@
     "path-match": "1.2.4",
     "rss": "1.2.2",
     "sanitize-html": "1.27.5",
-    "semver": "5.7.2",
+    "semver": "7.5.4",
     "simple-dom": "0.3.2",
     "simple-html-tokenizer": "0.5.11",
     "superagent": "3.8.3",
