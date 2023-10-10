@@ -91,7 +91,7 @@
     "sanitize-html": "1.18.2",
     "semver": "5.7.2",
     "simple-dom": "0.3.2",
-    "simple-html-tokenizer": "0.5.5",
+    "simple-html-tokenizer": "0.5.11",
     "superagent": "3.8.3",
     "unidecode": "0.1.8",
     "uuid": "3.3.2",
