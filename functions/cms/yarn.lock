@@ -5230,10 +5230,10 @@ oauth-sign@~0.9.0:
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
-oauth2orize@1.11.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/oauth2orize/-/oauth2orize-1.11.1.tgz#00b6cafe2036a0a3aab0380627dc7cfd5b5e9a9c"
-  integrity sha512-9dSx/Gwm0J2Rvj4RH9+h7iXVnRXZ6biwWRgb2dCeQhCosODS0nYdM9I/G7BUGsjbgn0pHjGcn1zcCRtzj2SlRA==
+oauth2orize@1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/oauth2orize/-/oauth2orize-1.12.0.tgz#8e01850fe71cc3bf6c71b2e48a391eb3a4e05c7e"
+  integrity sha512-j4XtFDQUBsvUHPjUmvmNDUDMYed2MphMIJBhyxVVe8hGCjkuYnjIsW+D9qk8c5ciXRdnk6x6tEbiO6PLeOZdCQ==
   dependencies:
     debug "2.x.x"
     uid2 "0.0.x"
