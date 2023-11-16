@@ -99,7 +99,7 @@
     "xml": "1.0.1"
   },
   "optionalDependencies": {
-    "sharp": "0.20.7",
+    "sharp": "0.32.6",
     "sqlite3": "4.0.1"
   },
   "devDependencies": {
